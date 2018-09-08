@@ -1,0 +1,239 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 234, 245);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header{
+    background-color: rgb(58, 68, 78);
+    color: rgb(256, 256, 256);
+    padding: 30px 0 0 0;
+    min-height: 70px;
+    border-bottom: rgb(204, 71, 34) 3px solid; 
+}
+
+header a{
+    color: rgb(256, 256, 256);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header li{
+    display: block;
+    float: left;
+    padding: 0 20px;
+}
+
+header #main-header{
+    float: left;
+}
+
+header #main-header h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin: 10px 0 0 0;
+}
+
+header .current a{
+    color: rgb(232, 73, 29);
+}
+
+header a:hover{
+    color: rgb(18, 141, 24);
+}
+
+/* Showcase */
+
+#showcase{
+    min-height: 400px;
+    background: url(https://dentist123-wpengine.netdna-ssl.com/wp-content/uploads/2018/04/dental-emergency-travelling-825x550.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(153, 0, 0);
+}
+
+#showcase h2{
+    margin: 10px 0 0 0;
+    font-size: 38px;
+}
+
+/* Main */
+
+main{
+    margin: 26px 0 0 0;
+}
+
+article{
+    float: left;
+    width: 65%;
+}
+
+article .article-header, aside .aside-header{
+    padding: 0;
+    border: none;
+}
+
+article .article-header h2, aside .aside-header h2{
+    margin: 0;
+    padding: 18px 0 0 0;
+    text-align: center;
+}
+
+article p{
+    margin: 24px 0;
+    font-size: 16px;
+}
+
+article img{
+    width: 100%;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    position: absolute;
+    right: 130px;
+}
+
+aside p{
+    background-color: rgb(245, 57, 57);
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+}
+
+aside ul{
+    background-color: rgb(252, 164, 49);
+    list-style-position: inside;
+    padding: 0 0 0 16px;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* Social Media */
+
+#secondary-nav{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+#secondary-nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 16px;
+}
+
+/* Newsletter */
+
+#newsletter{
+    padding: 15px;
+    color: rgb(256, 256, 256);
+    background-color: rgb(58, 68, 78);
+    position: sticky;
+    bottom: 0;
+}
+
+#newsletter h2{
+    float: left;
+    margin: 0;
+    margin: 3px 0 0 0;
+}
+
+#newsletter form{
+    float: right;
+    margin: 0;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.button-1{
+    border: none;
+    color: rgb(256, 256, 256);
+    background: rgb(204, 71, 34);
+    height: 37px;
+    padding: 10px;
+}
+
+/* Contact form */
+
+.contact-formular input{
+    display: block;
+    width: 30%;
+    height: 32px;
+    margin-top: 16px;
+}
+
+form textarea{
+    display: block;
+    width: 50%;
+    margin-top: 16px;
+}
+
+form h2{
+    font-size: 16px;
+}
+
+#form h2{
+    background-color: rgb(58, 68, 78);
+    padding: 16px;
+    margin: 0;
+    color: rgb(256, 256, 256);
+}
+
+#form p{
+    background-color: rgb(232, 73, 29);
+    color: rgb(256, 256, 256);
+    margin: 0;
+    padding: 16px;
+    font-size: 16px;
+}
+
+#form button{
+    margin-top: 16px;
+}
+
+/* Footer */
+
+footer{
+    padding: 10px;
+    color: rgb(256, 256, 256);
+    background-color: rgb(204, 71, 34);
+    text-align: center;
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: bold;
+}
